@@ -14,12 +14,12 @@ print ('''
 | )      | (___) || ) \ \__   | |   /\____) || (____/\| )   ( || )  \  |
 |/       (_______)|/   \__/   )_(   \_______)(_______/|/     \||/    )_)
 ''')
-sleep(1)
 print("                                By: Marcus Castilho (root@root)")
+print("						[versão 2.0]")
 print()
 sleep(2)
 
-dns = input("Dominio (ex: google.com): ")
+dns = input("Dominio (ex: google.com ou IP): ")
 porta = int(input("Porta (ex: 80): "))
 
 
